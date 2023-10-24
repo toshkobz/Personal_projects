@@ -1,9 +1,76 @@
 body {
     text-align: center;
     width: 100%;
+    font-family: sans-serif;
+    background-color: rgb(18, 45, 76);
+    color:white;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
-img {
-    margin: 5px auto;
+.arsenal-lovers {
+    font-size: small;
+    color: red;
+}
+
+#beginning {
+    margin: 15px auto;
     display: block;
+    border: 0.5px white solid;
+    border-radius: 8px;
+}
+
+.first-para {
+    margin: 20px 0;
+    padding: 3px;
+
+}
+
+.second-para-div {
+    padding:1px;
+    border: 1px red solid;
+    background-color: green;
+    margin-bottom: 30px;
+
+}
+
+.third-para {
+    padding: 2px;
+}
+
+.achievement {
+    border: 1px white solid;
+    background-color: brown;
+}
+
+.achievement .achievement-1 {
+    background-color: black;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.second-para-div a {
+    color: white;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+}
+.ul-div {
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 15px;
+    border: 1px white double;
+    text-align: left;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#end {
+    display: inline;
+    margin-top: -90px;
+    margin-right: -1250px;
+    border: 0.5px white solid;
 }
