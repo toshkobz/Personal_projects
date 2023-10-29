@@ -9,6 +9,13 @@ body {
     margin-top: 0;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
 .arsenal-lovers {
     font-size: small;
     color: red;
