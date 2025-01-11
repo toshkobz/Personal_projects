@@ -1,29 +1,23 @@
+p {
+    font-weight: bolder;
 
-nav {
-    height: 100px;
-    width: 100px;
-    display: flex;
-    justify-content:flex-start;
-    gap: 20px;
-    background-color:black;
-    color: aqua;
-    font-family:'Times New Roman', Times, serif;
-    font-size: larger;
 }
 
-li {
-    list-style-type: lower-alpha;
-    font-style: italic;
+.normal-paragraph {
+    font-size: 20px;
 }
 
-img {
-    display: inline;
+.small-paragraph {
+    font-size: 14px;
 }
 
+div.text {
+    font-size: 22px;
+}
 
-a {
-    width: auto;
-    color: blueviolet;
-    background-color:aqua;
+div.child {
+    font-weight: bolder;
+    font-size: 14px;
+    
 }
 
